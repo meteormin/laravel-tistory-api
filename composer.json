@@ -20,7 +20,7 @@
     "ext-json": "*",
     "miniyus/mapper": "^2.6",
     "php-webdriver/webdriver": "^1.11",
-    "miniyus/restful-api-client": "^1.1"
+    "miniyus/restful-api-client": "^1.1.15"
   },
   "autoload": {
     "psr-4": {

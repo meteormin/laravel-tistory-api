@@ -16,13 +16,15 @@ use Miniyus\RestfulApiClient\Api\ApiClient;
  */
 class TistoryClient extends ApiClient
 {
+    protected string $configName = 'tistory';
+
     /**
      * TistoryClient constructor.
      * @param string|null $host
      * @param string|null $type
      * @param string $server
      */
-    public function __construct(string $host = null, ?string $type = 'storage', string $server = 'tistory')
+    public function __construct(string $host = null, ?string $type = 'storage', string $server = 'default')
     {
         parent::__construct($host, $type, $server);
     }
